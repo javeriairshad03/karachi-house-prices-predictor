@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts and datasets
+data/raw/
+data/interim/
+data/processed/
+models/
+*.pkl
+*.joblib
+
+# Environment and secrets
+.env
+.env.*
+
+# IDE/OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
